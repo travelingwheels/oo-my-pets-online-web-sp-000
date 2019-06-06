@@ -14,7 +14,9 @@ class Owner
     return "I am a #{@species}."
   end
   
-  def buy_fish
+  def buy_fish(name_of_fish)
+    @pets[:fishes] << Fish.new(name_of_fish)
+  end
   
   def self.count
     @@all.size 
