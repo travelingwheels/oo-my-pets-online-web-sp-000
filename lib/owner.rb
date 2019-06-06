@@ -9,7 +9,7 @@ class Owner
   end
   
   def say_species
-    
+    return "I am a #{"
   end
   
   def self.count
