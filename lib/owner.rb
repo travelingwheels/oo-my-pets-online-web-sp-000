@@ -58,7 +58,6 @@ class Owner
   
   def sell_pets
     
-  end
   
   def self.count
     @@all.size 
