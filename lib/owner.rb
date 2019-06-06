@@ -43,7 +43,6 @@ class Owner
         end
       end
     end
-  end
   
   def self.count
     @@all.size 
