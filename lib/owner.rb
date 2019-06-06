@@ -3,6 +3,7 @@ class Owner
   
   @@all = []
   
+  def initialize(sp)
   def self.all
     @@all
   end
