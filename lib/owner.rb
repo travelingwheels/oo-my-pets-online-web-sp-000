@@ -8,6 +8,10 @@ class Owner
     @@all << self
   end
   
+  def say_species
+    
+  end
+  
   def self.count
     @@all.size 
   end
