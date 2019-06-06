@@ -36,13 +36,7 @@ class Owner
     end
     
     def play_with_cats
-      @pets.collect do |species, instances|
-      if species == :cats
-        instances.each do |cat|
-          dog.mood = "happy"
-        end
-      end
-    end
+      
   
   def self.count
     @@all.size 
